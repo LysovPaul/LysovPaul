@@ -56,7 +56,7 @@ public class NolinkTest {
                 toVisit.push(elem.getAttribute("href"));
             });
         }
-        System.out.println("Номера страницы без ссылки: " + String.join(",", pagesNoLinks));
+        System.out.println("Номера страниц без ссылки: " + String.join(",", pagesNoLinks));
     }
     /**
      * закрытие окна браузера
